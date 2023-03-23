@@ -1,0 +1,63 @@
+:root{
+    --primary-color:#021A84;
+    --primary-color-dark: 
+    #021A84,
+    #00000080;
+    
+    --secondary--color:#FE4C4C;
+    --black-color: #171717;
+    --gray-color: #999999;
+    --green-gradient: linear-gradient(
+        0deg, 
+        rgba(255, 255, 255, 0.6), 
+        rgba(255, 255, 255, 0.6)),
+         #2ADA66;
+    --blue-gradient: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.6), 
+        rgba(255, 255, 255, 0.6)), 
+        #021A84;    
+    --red-gradient:linear-gradient(
+        0deg, 
+        rgba(255, 255, 255, 0.6), 
+        rgba(255, 255, 255, 0.6)), 
+        #E5532A;
+    --white-color:#fff
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+.row{
+    max-width: 1160px;
+    width: 100%;
+}
+.btn{
+    min-width: 150px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.btn_boder{
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    border-radius: 8px;
+
+}
+.btn_solid{
+    background-color: var(--primary-color);
+    border-radius: 8px;
+    color: #fff;
+}
