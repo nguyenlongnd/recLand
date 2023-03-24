@@ -2,7 +2,7 @@
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    background: #FFFFFFE5;
+    background: #fff;
 
 }
 .navbar{
@@ -22,6 +22,258 @@
     height: 40px;
 }
 .banner{
+    padding-top: 50%;
+    background: no-repeat  url(../img/header_banner.png);
     width: 100%;
-    object-fit: contain;
+    background-size: contain;
+}
+
+/* location-search */
+.content__search-infor{
+    margin-top: 40px;
+    display: flex;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 28px;
+}
+.location_search{
+    display: flex;
+    width: 688px;
+    background-color: #fff;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+.location_search input{
+    border: none;
+    outline: none;
+    
+}
+
+.location_search-icon{
+    padding-right: 8px;
+}
+
+.location_select{
+    width: 272px;
+    background-color: #fff;
+    margin-left: 16px;
+    margin-right: 14px;
+    border-radius: 8px;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+}
+.location_select p{
+    margin-left: 8px;
+    flex-grow: 2;
+}
+.location_select span{
+    display: inline-block;
+    color: red;
+}
+
+.suggest ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.suggest ul li{
+    margin: 0 8px;
+}
+.suggest ul li:first{
+    margin-right: 12px;
+}
+
+/* list-product */
+.list-product__item{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.content__list-product{
+    margin-top: 76px;
+}
+.list-product-item{
+    height: 156px;
+    min-width: 367px;
+    padding: 16px;
+    border-radius: 16px;
+    background-color: #fff;
+    flex-basis: 1;
+    margin-bottom: 32px;
+}
+.list-product-title{
+    display: flex;
+    align-items: center;
+    height: 66px;
+    margin-bottom: 40px;
+}
+.list-product-title h1{
+    font-size: 34px;
+    margin-left: 8px;
+}
+
+.list-prd__info-item div{
+    display: flex;
+    align-items: center;
+}
+.list-prd__info-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.list-prd__info-item h2{
+    max-width: 186px;
+    padding-left: 8px;
+    flex-grow: 2;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    margin-right: 40px;
+    word-break: break-word;;
+}
+.info-item__timetable {
+    background-color: #f2f4f9;
+    font-size: 12px;
+
+}
+.list-prd__profit-item{
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.list-prd__profit-item p{
+    line-height: 16px;
+    font-weight: 500;
+    font-size: 12px;
+}
+.list-prd__profit-item span{
+    line-height: 20px;
+    font-weight: 700;
+}
+.list-prd__profit-item .currency-unit{
+    line-height: 20px;
+    font-weight: 400;
+   color: #999999;
+}
+.list-prd__profit-item .Separator{
+    display: inline-block;
+    height: 16px;
+    border-right: solid #E5E5E5 1px;
+
+}
+.list-prd__address{
+    padding-top: 8px;
+    height: 24px;
+}
+.list-prd__address ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.list-prd__address ul span{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.list-prd__address ul span li{
+    margin-right: 8px;
+}
+.list-prd__address ul>li{
+    background-color: #FE4C4C;
+    color: #fff;
+}
+
+/* about-us */
+.content__about-us{
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.about-us_body{
+    display: flex;
+    justify-content: space-between;
+}
+.about-us_header{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.about-us_header p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--primary-color);
+}
+.about-us_header h2{
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 48px;
+
+}
+.about-us_develop,
+.about-us_benefit,
+.about-us_job{
+    width: 364px;
+    height: 278px;
+    padding: 32px;
+    border-radius: 16px;
+    background: var(--green-gradient);
+    text-align: center;
+}
+.about-us_job h3,
+.about-us_benefit h3,
+.about-us_develop h3{
+    margin-top: 16px;
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    color:#156d33;
+}
+
+.about-us_job p,
+.about-us_benefit p,
+.about-us_develop p{
+    font-weight: 400;
+    line-height: 20px;
+    color:#3a8e57;
+}
+.about-us_benefit{
+    background: var(--blue-gradient);
+}
+.about-us_develop{
+    background: var(--red-gradient);
+}
+.about-us_benefit h3,
+.about-us_benefit p {
+    color:#010d42;
+}
+.about-us_develop h3,
+.about-us_develop p {
+    color: #e5532a;
+}
+
+/* partner */
+.content__partner{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.content__partner h2 {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 48px;
+}
+.content__partner-body a{
+    height: 156px;
+    width: 156px;
+    margin: 0 30px;
 }

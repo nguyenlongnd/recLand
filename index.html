@@ -13,11 +13,12 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
 
   <body>
     <div class="container">
-        <div id="header"> 
+        <div id="header">
             <div class="row">
                 <div class="navbar">
                     <a href="./">
@@ -31,35 +32,407 @@
             </div>
         </div>
         <div class="banner">
-            <img src="./assests/img/header_banner.png" alt="banner">
+            
         </div>
         </div>
         <div class="content">
-            <div class="content__search-info">
+            <div class="row">
+                <div class="row">
+                    <div class="content__search-infor">
+                        <form class="location_search">
+                            <span class="location_search-icon">
+                                <img src="./assests/img/search-location_2.svg" alt="locale_search">
+                                <img src="./assests/img/search-location_1.svg" alt="locale_search">
+                            </span>
+                            <input type="text" placeholder="Nhập vị trí hoặc từ khóa...">
+                        </form>
+                        <div class="location_select">
+                            <img src="./assests/img/select-location.svg" alt="location">
+                            <p>Chọn địa điểm</p>
+                            <img src="./assests/img/arrow-down.svg" alt="arrow-down">
+                        </div>
+                        <div class="btn btn_solid">Tìm kiếm</div>
+                    </div>
+                    <div class="suggest">
+                        <ul>
+                            <li>Đề xuất:</li>
+                            <li class="small-btn">ReactJs</li>
+                            <li class="small-btn">VueJs</li>
+                            <li class="small-btn">Angular</li>
+                            <li class="small-btn">Design</li>
+                            <li class="small-btn">.NET</li>
+                            <li class="small-btn">PHP</li>
+                            <li class="small-btn">Java</li>
+                            <li class="small-btn">Mobile</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="content__list-product">
+                    <div class="row">
+                        <div class="list-product-title">
+                            <img src="./assests/img/list_product-title-logo.png" alt="logo">
+                            <h1>Jobs tốt nhất</h1>
+                        </div>
+                        <div class="list-product__item">
+                            <div class="list-product-item">
+                                <div class="list-prd__info-item">
+                                    <div>
+                                        <img src="./assests/img/logo_item-1.png" alt="logo-item" class="info-item__logo">
+                                        <h2 class="info-item__title"> Data Engineer</h2>
+                                    </div>
+                                    <p class="small-btn info-item__timetable ">Full-time</p>
+                                </div>
+                                <div class="list-prd__profit-item">
+                                    <div class="profit-item__Commission">
+                                        <p>Hoa hồng</p>
+                                        <span>12,000,000</span>
+                                        <span class="currency-unit">VNĐ</span>
+                                    </div>
+                                    <span class="Separator"></span>
+                                    <div class="profit-item__bonus">
+                                        <p>Thưởng</p>
+                                        <span> 50,000,000 </span>
+                                        <span class="currency-unit">VNĐ</span>
+                                    </div>
+                                </div>
+                                <div class="list-prd__address">
+                                    <ul>
+                                        <span>
+                                            <li class="small-btn-2">Hà Nội</li>
+                                            <li class="small-btn-2">Onboard</li>
+                                        </span>
+                                        <li class="small-btn-2">PREMIUM</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="list-product-item">
+                                <div class="list-prd__info-item">
+                                    <div>
+                                        <img src="./assests/img/logo_item-1.png" alt="logo-item" class="info-item__logo">
+                                        <h2 class="info-item__title"> Data Engineer</h2>
+                                    </div>
+                                    <p class="small-btn info-item__timetable ">Full-time</p>
+                                </div>
+                                <div class="list-prd__profit-item">
+                                    <div class="profit-item__Commission">
+                                        <p>Hoa hồng</p>
+                                        <span>12,000,000</span>
+                                        <span class="currency-unit">VNĐ</span>
+                                    </div>
+                                    <span class="Separator"></span>
+                                    <div class="profit-item__bonus">
+                                        <p>Thưởng</p>
+                                        <span> 50,000,000 </span>
+                                        <span class="currency-unit">VNĐ</span>
+                                    </div>
+                                </div>
+                                <div class="list-prd__address">
+                                    <ul>
+                                        <span>
+                                            <li class="small-btn-2">Hà Nội</li>
+                                            <li class="small-btn-2">Onboard</li>
+                                        </span>
+                                        <li class="small-btn-2">PREMIUM</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="list-product-item">
+                                <div class="list-prd__info-item">
+                                    <div>
+                                        <img src="./assests/img/logo_item-1.png" alt="logo-item" class="info-item__logo">
+                                        <h2 class="info-item__title"> Data Engineer</h2>
+                                    </div>
+                                    <p class="small-btn info-item__timetable ">Full-time</p>
+                                </div>
+                                <div class="list-prd__profit-item">
+                                    <div class="profit-item__Commission">
+                                        <p>Hoa hồng</p>
+                                        <span>12,000,000</span>
+                                        <span class="currency-unit">VNĐ</span>
+                                    </div>
+                                    <span class="Separator"></span>
+                                    <div class="profit-item__bonus">
+                                        <p>Thưởng</p>
+                                        <span> 50,000,000 </span>
+                                        <span class="currency-unit">VNĐ</span>
+                                    </div>
+                                </div>
+                                <div class="list-prd__address">
+                                    <ul>
+                                        <span>
+                                            <li class="small-btn-2">Hà Nội</li>
+                                            <li class="small-btn-2">Onboard</li>
+                                        </span>
+                                        <li class="small-btn-2">PREMIUM</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="list-product-item">
+                                <div class="list-prd__info-item">
+                                    <div>
+                                        <img src="./assests/img/logo_item-1.png" alt="logo-item" class="info-item__logo">
+                                        <h2 class="info-item__title"> Data Engineer</h2>
+                                    </div>
+                                    <p class="small-btn info-item__timetable ">Full-time</p>
+                                </div>
+                                <div class="list-prd__profit-item">
+                                    <div class="profit-item__Commission">
+                                        <p>Hoa hồng</p>
+                                        <span>12,000,000</span>
+                                        <span class="currency-unit">VNĐ</span>
+                                    </div>
+                                    <span class="Separator"></span>
+                                    <div class="profit-item__bonus">
+                                        <p>Thưởng</p>
+                                        <span> 50,000,000 </span>
+                                        <span class="currency-unit">VNĐ</span>
+                                    </div>
+                                </div>
+                                <div class="list-prd__address">
+                                    <ul>
+                                        <span>
+                                            <li class="small-btn-2">Hà Nội</li>
+                                            <li class="small-btn-2">Onboard</li>
+                                        </span>
+                                        <li class="small-btn-2">PREMIUM</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="list-product-item">
+                                <div class="list-prd__info-item">
+                                    <div>
+                                        <img src="./assests/img/logo_item-1.png" alt="logo-item" class="info-item__logo">
+                                        <h2 class="info-item__title"> Data Engineer</h2>
+                                    </div>
+                                    <p class="small-btn info-item__timetable ">Full-time</p>
+                                </div>
+                                <div class="list-prd__profit-item">
+                                    <div class="profit-item__Commission">
+                                        <p>Hoa hồng</p>
+                                        <span>12,000,000</span>
+                                        <span class="currency-unit">VNĐ</span>
+                                    </div>
+                                    <span class="Separator"></span>
+                                    <div class="profit-item__bonus">
+                                        <p>Thưởng</p>
+                                        <span> 50,000,000 </span>
+                                        <span class="currency-unit">VNĐ</span>
+                                    </div>
+                                </div>
+                                <div class="list-prd__address">
+                                    <ul>
+                                        <span>
+                                            <li class="small-btn-2">Hà Nội</li>
+                                            <li class="small-btn-2">Onboard</li>
+                                        </span>
+                                        <li class="small-btn-2">PREMIUM</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="list-product-item">
+                                <div class="list-prd__info-item">
+                                    <div>
+                                        <img src="./assests/img/logo_item-1.png" alt="logo-item" class="info-item__logo">
+                                        <h2 class="info-item__title"> Data Engineer</h2>
+                                    </div>
+                                    <p class="small-btn info-item__timetable ">Full-time</p>
+                                </div>
+                                <div class="list-prd__profit-item">
+                                    <div class="profit-item__Commission">
+                                        <p>Hoa hồng</p>
+                                        <span>12,000,000</span>
+                                        <span class="currency-unit">VNĐ</span>
+                                    </div>
+                                    <span class="Separator"></span>
+                                    <div class="profit-item__bonus">
+                                        <p>Thưởng</p>
+                                        <span> 50,000,000 </span>
+                                        <span class="currency-unit">VNĐ</span>
+                                    </div>
+                                </div>
+                                <div class="list-prd__address">
+                                    <ul>
+                                        <span>
+                                            <li class="small-btn-2">Hà Nội</li>
+                                            <li class="small-btn-2">Onboard</li>
+                                        </span>
+                                        <li class="small-btn-2">PREMIUM</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="list-product-item">
+                                <div class="list-prd__info-item">
+                                    <div>
+                                        <img src="./assests/img/logo_item-1.png" alt="logo-item" class="info-item__logo">
+                                        <h2 class="info-item__title"> Data Engineer</h2>
+                                    </div>
+                                    <p class="small-btn info-item__timetable ">Full-time</p>
+                                </div>
+                                <div class="list-prd__profit-item">
+                                    <div class="profit-item__Commission">
+                                        <p>Hoa hồng</p>
+                                        <span>12,000,000</span>
+                                        <span class="currency-unit">VNĐ</span>
+                                    </div>
+                                    <span class="Separator"></span>
+                                    <div class="profit-item__bonus">
+                                        <p>Thưởng</p>
+                                        <span> 50,000,000 </span>
+                                        <span class="currency-unit">VNĐ</span>
+                                    </div>
+                                </div>
+                                <div class="list-prd__address">
+                                    <ul>
+                                        <span>
+                                            <li class="small-btn-2">Hà Nội</li>
+                                            <li class="small-btn-2">Onboard</li>
+                                        </span>
+                                        <li class="small-btn-2">PREMIUM</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="list-product-item">
+                                <div class="list-prd__info-item">
+                                    <div>
+                                        <img src="./assests/img/logo_item-1.png" alt="logo-item" class="info-item__logo">
+                                        <h2 class="info-item__title"> Data Engineer</h2>
+                                    </div>
+                                    <p class="small-btn info-item__timetable ">Full-time</p>
+                                </div>
+                                <div class="list-prd__profit-item">
+                                    <div class="profit-item__Commission">
+                                        <p>Hoa hồng</p>
+                                        <span>12,000,000</span>
+                                        <span class="currency-unit">VNĐ</span>
+                                    </div>
+                                    <span class="Separator"></span>
+                                    <div class="profit-item__bonus">
+                                        <p>Thưởng</p>
+                                        <span> 50,000,000 </span>
+                                        <span class="currency-unit">VNĐ</span>
+                                    </div>
+                                </div>
+                                <div class="list-prd__address">
+                                    <ul>
+                                        <span>
+                                            <li class="small-btn-2">Hà Nội</li>
+                                            <li class="small-btn-2">Onboard</li>
+                                        </span>
+                                        <li class="small-btn-2">PREMIUM</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="list-product-item">
+                                <div class="list-prd__info-item">
+                                    <div>
+                                        <img src="./assests/img/logo_item-1.png" alt="logo-item" class="info-item__logo">
+                                        <h2 class="info-item__title"> Data Engineer</h2>
+                                    </div>
+                                    <p class="small-btn info-item__timetable ">Full-time</p>
+                                </div>
+                                <div class="list-prd__profit-item">
+                                    <div class="profit-item__Commission">
+                                        <p>Hoa hồng</p>
+                                        <span>12,000,000</span>
+                                        <span class="currency-unit">VNĐ</span>
+                                    </div>
+                                    <span class="Separator"></span>
+                                    <div class="profit-item__bonus">
+                                        <p>Thưởng</p>
+                                        <span> 50,000,000 </span>
+                                        <span class="currency-unit">VNĐ</span>
+                                    </div>
+                                </div>
+                                <div class="list-prd__address">
+                                    <ul>
+                                        <span>
+                                            <li class="small-btn-2">Hà Nội</li>
+                                            <li class="small-btn-2">Onboard</li>
+                                        </span>
+                                        <li class="small-btn-2">PREMIUM</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="content__about-us">
+                        <div class="about-us_header">
+                            <p>Why?</p>
+                            <h2>Tại Sao Lựa Chọn Recland?</h2>
+                        </div>
+                        <div class="about-us_body">
+                            <div class="about-us_job">
+                                <div class="about-us-icont">
+                                    <img src="./assests/img/about_us-1.png" alt="">
+                                </div>
+                                <h3 class="about-us-desc">
+                                    Đa dạng việc làm, thêm nhiều lựa chọn hấp dẫn
+                                </h3>
+                                <p class="about-us-detail">
+                                    Hơn 200+ việc làm IT, giúp các bạn REC có một kho việc làm để các bạn tìm kiếm, sale jobs
+                                    đến những ứng viên phù hợp.
+                                </p>
+                            </div>
+                            <div class="about-us_benefit">
+                                <div class="about-us-icon">
+                                    <img src="./assests/img/about_us-2.png" alt="">
+                                </div>
+                                <h3 class="about-us-desc">
+                                    Cơ chế hoa hồng hấp dẫn, rõ ràng và minh bạch </h3>
+                                <p class="about-us-detail">
+                                    RecLand đem đến cho các bạn REC mức hoa hồng hấp dẫn, giúp cho các bạn REC có được mức thu
+                                    nhập tương xứng mà không cần đến công ty làm việc </p>
+                            </div>
+                            <div class="about-us_develop">
+                                <div class="about-us-icon">
+                                    <img src="./assests/img/about_us-3.png" alt="">
+                                </div>
+                                <h3 class="about-us-desc">
+                                    Mở rộng network và học hỏi từ cộng đồng</h3>
+                                <p class="about-us-detail">
+                                    RecLand cũng thường xuyên tổ chức những buổi chia sẻ, buổi offline nhằm giúp các bạn REC
+                                    trau dồi, học hỏi và mở rộng được network trong lĩnh vực tuyển dụng.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content__partner">
+                    <h2 class="content__partner-header">Đối Tác</h2>
+                    <div class="content__partner-body">
+                        <a href="#"><img src="./assests/img/partner-1.png" alt="logo"></a>
+                        <a href="#"><img src="./assests/img/partner-2.png" alt="logo"></a>
+                        <a href="#"><img src="./assests/img/partner-3.png" alt="logo"></a>
+                        <a href="#"><img src="./assests/img/partner-4.png" alt="logo"></a>
+                        <a href="#"><img src="./assests/img/partner-5.png" alt="logo"></a>
+                    </div>
+                </div>
+                <div class="content__cooperate">
 
+                    <div class="about-us_header">
+                            <p>Quy trình làm việc</p>
+                            <h2>Hợp tác cùng RecLand</h2>
+                        </div>
+                    <div class="content__partner-body">
+                        <a href="#"><img src="./assests/img/partner-1.png" alt="logo"></a>
+                        <a href="#"><img src="./assests/img/partner-2.png" alt="logo"></a>
+                        <a href="#"><img src="./assests/img/partner-3.png" alt="logo"></a>
+                        <a href="#"><img src="./assests/img/partner-4.png" alt="logo"></a>
+                        <a href="#"><img src="./assests/img/partner-5.png" alt="logo"></a>
+                    </div>
+                </div>
+                <div class="content__register">
+        
+                </div>
+        
             </div>
-            <div class="content__list-product">
-
+            <div id="footer">
+        
             </div>
-            <div class="content__about-us">
-
-            </div>
-            <div class="content__partner">
-
-            </div>
-            <div class="content__cooperate">
-
-            </div>
-            <div class="content__register">
-
-            </div>
-
+        
         </div>
-        <div id="footer">
-            
         </div>
-
-    </div>
 
   </body>
 </html>

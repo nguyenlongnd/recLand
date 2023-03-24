@@ -3,7 +3,7 @@
     --primary-color-dark: 
     #021A84,
     #00000080;
-    
+    --background-color:#E5E5E5
     --secondary--color:#FE4C4C;
     --black-color: #171717;
     --gray-color: #999999;
@@ -32,15 +32,18 @@
 html,body{
     font-family: 'Inter', sans-serif;
     font-size: 14px;
+    background-color: #E5E5E5;
 }
 .container{
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
+
 }
 .row{
     max-width: 1160px;
     width: 100%;
+    margin: 0 auto;
 }
 .btn{
     min-width: 150px;
@@ -61,3 +64,14 @@ html,body{
     border-radius: 8px;
     color: #fff;
 }
+.small-btn{
+    background: #0000001A;
+    padding:  4px 8px;
+    border-radius: 8px;
+}
+.small-btn-2{
+    background: #F2F2F2;
+    padding:  4px 16px;
+    border-radius: 8px; 
+}
+
