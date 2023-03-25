@@ -204,12 +204,14 @@
     text-align: center;
     margin-bottom: 40px;
 }
+.cooperate_title p,
 .about-us_header p{
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
     color: var(--primary-color);
 }
+.cooperate_title h2,
 .about-us_header h2{
     font-size: 34px;
     font-weight: 700;
@@ -276,4 +278,196 @@
     height: 156px;
     width: 156px;
     margin: 0 30px;
+}
+
+/* content__cooperate */
+.cooperate_title{
+    text-align: center;
+}
+.cooperate_body{
+    width: 298px;
+    height: 238px;
+    text-align: center;
+}
+.content__partner-desc{
+    padding-top: 16px;
+    padding-bottom: 8px;
+}
+.cooperate_wraper{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* content__register */
+.content__register{
+    margin-top: 116px;
+}
+.register-information{
+    display: flex;
+}
+
+.register-information-title{
+    display: flex;
+    align-items: center;
+    flex-grow: 2;
+    max-width: 1160px;
+    height: 120px;
+    background-color:#1bb654;
+    border-top-left-radius: 20px;
+    color: #fff;    
+}
+.register-information-desc h3{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 40px;
+}
+.register-information-desc p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+.register-information-submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 232px;
+    height: 120px;
+    background-color:#58d483;
+    color: #fff;
+    border-bottom-right-radius: 20px;
+}
+.register-btn{
+    padding: 8px 16px;
+    background-color: var(--primary-color);
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+/* register-email */
+.register-email{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    margin-top: 40px;
+}
+.register-email-input,
+.register-information{
+    display: flex;
+    align-items: center;
+}
+.register-email-input input{
+    width: 252px;
+    height: 50px;
+    border-radius: 8px;
+    Padding: 8px 8px 8px 16px;
+    background-color: #fff;
+    border: 1px solid #E5E5E5;
+    margin-right: 16px;
+    outline: none;
+}
+.register-email-input img{
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+}
+.register-infor-job,
+.register-infor-company{
+    display: flex;
+    align-items: center;
+    margin-left: 32px;
+}
+.infor-job_quantity,
+.infor-company_quantity{
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 50px;
+    background-color: #fff;
+    border-radius: 50px;
+}
+.register-infor-job span,
+.register-infor-company span{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #999999;
+    margin-left: 6px;
+}
+
+/* footer-media */
+.footer-container{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer-media{
+    max-width: 190px;
+    height: 88px;
+    margin-bottom: 40px;
+}
+.footer-media-logo img{
+    display:inline-block;
+    height: 48px;
+    width: 190px;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    border-bottom:  1px solid #ff0000;;
+}
+.footer-media-social{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-media a img {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
+.footer-address{
+    max-width: 242px;
+}
+.footer-contact h3,
+.footer-address h3{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #010d42;
+    margin-bottom: 4px;
+}
+.footer-copyright,
+.footer-address p,
+.footer-contact ul li,
+.footer-menu ul li,
+.footer-myAcount ul li{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #999999;
+    word-wrap: break-word;
+    list-style: none;
+}
+
+.footer-contact{
+    max-width: 206px;
+    margin-bottom: 40px;
+}
+.footer-menu{
+    max-width: 164px;
+    margin-bottom: 40px;
+}
+.footer-myAcount{
+    max-width: 154px;
+    margin-bottom: 40px;
+}
+.footer-copyright{
+    margin-bottom: 154px;
+    margin-top: 112px;
+    text-align: center;
 }

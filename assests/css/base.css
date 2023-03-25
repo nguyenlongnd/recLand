@@ -57,21 +57,33 @@ html,body{
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
     border-radius: 8px;
-
-}
+    cursor: pointer;
+    }
 .btn_solid{
     background-color: var(--primary-color);
     border-radius: 8px;
     color: #fff;
+    cursor: pointer;
 }
 .small-btn{
     background: #0000001A;
     padding:  4px 8px;
     border-radius: 8px;
+    cursor: pointer;
 }
 .small-btn-2{
     background: #F2F2F2;
     padding:  4px 16px;
     border-radius: 8px; 
+    cursor: pointer;
 }
-
+.set-h3{
+    line-height: 28px;
+    font-weight: 700;
+    font-size: 18px;
+}
+.set-p{
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 14px;
+}
